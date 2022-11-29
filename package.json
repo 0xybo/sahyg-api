@@ -1,0 +1,36 @@
+{
+	"name": "sahyg-api",
+	"version": "0.0.1",
+	"description": "API for SAHYG Website : https://www.sahyg.fr",
+	"main": "index.js",
+	"directories": {
+		"lib": "lib"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Alban G.",
+	"license": "ISC",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"body-parser": "^1.20.0",
+		"colors": "^1.4.0",
+		"connect-mongo": "^4.6.0",
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.2",
+		"express": "^4.18.1",
+		"express-session": "^1.17.3",
+		"fs": "^0.0.1-security",
+		"helmet": "^6.0.0",
+		"hpp": "^0.2.3",
+		"http": "^0.0.1-security",
+		"https": "^1.0.0",
+		"jsonwebtoken": "^8.5.1",
+		"moment": "^2.29.4",
+		"mongoose": "^6.6.2",
+		"multer": "^1.4.5-lts.1",
+		"path-to-regexp": "^6.2.1",
+		"recursive-readdir": "^2.2.2",
+		"uid-safe": "^2.1.5"
+	}
+}
